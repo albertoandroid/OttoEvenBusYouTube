@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:layout_height="150dp">
+
+    <EditText
+        android:id="@+id/primer_fragment_et"
+        android:hint="fr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/primer_fragment_bt"
+        android:text="messagefr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="20dp"
+        android:id="@+id/primer_fragment_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Soy Fragment 1" />
+
+</LinearLayout>

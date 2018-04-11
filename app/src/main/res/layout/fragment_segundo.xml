@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="150dp">
+
+    <EditText
+        android:id="@+id/segundo_fragment_et"
+        android:hint="fr2"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/segundo_fragment_bt"
+        android:text="messageFtoA"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="20dp"
+        android:id="@+id/segundo_fragment_tv"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorAccent"
+        android:layout_height="match_parent"
+        android:text="Soy Fragment 2" />
+
+</LinearLayout>
